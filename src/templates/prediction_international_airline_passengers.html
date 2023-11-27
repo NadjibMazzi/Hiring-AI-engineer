@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Air Passengers DataSet</title>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>Evaluations Table</h2>
+  <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Kernal</th>
+        <th>Root Mean Square Error</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> Gaussian </td>
+        <td>{{ evaluation_results['gp_gaussian_airpassengers'] }}</td>
+      </tr>
+      <tr>
+        <td> RBF </td>
+        <td>{{ evaluation_results['gp_rbf_airpassengers'] }}</td>
+      </tr>
+      <tr>
+        <td> RQ </td>
+        <td>{{ evaluation_results['gp_rq_airpassengers'] }}</td>
+      </tr>
+      <tr>
+        <td> Sum </td>
+        <td>{{ evaluation_results['gp_sum_airpassengers'] }}</td>
+      </tr>
+      <tr>
+        <td> Product </td>
+        <td>{{ evaluation_results['gp_prod_airpassengers'] }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+</body>
+</html>

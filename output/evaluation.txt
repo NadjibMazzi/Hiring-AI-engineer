@@ -1,0 +1,12 @@
+RMSE for the Gaussian kernals with load_mauna_loa_atmospheric_co2: 15.89
+RMSE for the RBF kernals with load_mauna_loa_atmospheric_co2: 15.92
+RMSE for the RQ kernal with load_mauna_loa_atmospheric_co2 : 15.87
+RMSE for the addition kernal with load_mauna_loa_atmospheric_co2: 15.89
+RMSE for the Multiple kernal with load_mauna_loa_atmospheric_co2: 15.87
+
+
+RMSE for the Guassian kernals with air_passenger: 131.14
+RMSE for the RBF kernals with air_passenger: 131.21
+RMSE for the RQ kernals with air_passenger: 131.12
+RMSE for the addition kernal with air_passenger: 131.14
+RMSE for the Multiple  kernal with air_passenger: 131.07
